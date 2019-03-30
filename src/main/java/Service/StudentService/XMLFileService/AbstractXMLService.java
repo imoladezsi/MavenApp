@@ -1,4 +1,4 @@
-package StudentService.Service.XMLFileService;
+package Service.StudentService.XMLFileService;
 import Domain.*;
 import Exceptions.ValidatorException;
 import Repository.XMLFileRepository.AbstractXMLRepo;

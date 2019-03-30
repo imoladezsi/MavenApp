@@ -3,10 +3,10 @@ package UI;
 import java.io.IOException;
 import java.util.Scanner;
 import Exceptions.*;
-import StudentService.Service.XMLFileService.AbstractXMLService;
-import StudentService.Service.XMLFileService.NotaXMLService;
-import StudentService.Service.XMLFileService.StudentXMLService;
-import StudentService.Service.XMLFileService.TemaLabXMLService;
+import Service.StudentService.XMLFileService.AbstractXMLService;
+import Service.StudentService.XMLFileService.NotaXMLService;
+import Service.StudentService.XMLFileService.StudentXMLService;
+import Service.StudentService.XMLFileService.TemaLabXMLService;
 
 public class ui {
     StudentXMLService stdSrv;

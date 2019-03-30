@@ -1,4 +1,4 @@
-package StudentService.Service.XMLFileService;
+package Service.StudentService.XMLFileService;
 
 import Domain.TemaLab;
 import Exceptions.ValidatorException;

@@ -1,4 +1,4 @@
-package StudentService.Service.XMLFileService;
+package Service.StudentService.XMLFileService;
 
 import Domain.*;
 import Repository.XMLFileRepository.NotaXMLRepo;

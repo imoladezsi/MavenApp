@@ -1,4 +1,4 @@
-package StudentService.Service.TxtFileService;
+package Service.StudentService.TxtFileService;
 
 import Domain.HasId;
 import Exceptions.ValidatorException;

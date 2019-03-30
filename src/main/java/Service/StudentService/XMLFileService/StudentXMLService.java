@@ -1,4 +1,4 @@
-package StudentService.Service.XMLFileService;
+package Service.StudentService.XMLFileService;
 
 import Domain.Student;
 import Repository.XMLFileRepository.StudentXMLRepo;

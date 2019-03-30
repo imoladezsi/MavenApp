@@ -2,45 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c8a059-40c3-4a86-9f07-9791236c727d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/HasId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/HasId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Nota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/TemaLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/TemaLab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/RepositoryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RepositoryException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ValidatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ValidatorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/AbstractCrudRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/NotaRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/NotaRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/StudentRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/TemaLabRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/TemaLabRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/AbstractFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/AbstractFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/NotaFileRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/NotaFileRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/StudentFileRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/StudentFileRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/TemaLabFileRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/TemaLabFileRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/AbstractXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/NotaXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/NotaXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/StudentXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/TemaLabXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/TemaLabXMLRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/AbstractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/NotaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/NotaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/TemaLabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/TemaLabService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/AbstractXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/AbstractXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/NotaXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/NotaXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/StudentXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/StudentXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/TemaLabXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/TemaLabXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestStd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestStd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/ui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validator/IValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/IValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validator/NotaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/NotaValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validator/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validator/TemaLabValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/TemaLabValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatpoint/testcase/CrudRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javatpoint/testcase/CrudRepoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MavenApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MavenApp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/NotaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/NotaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/TemaLabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/TemaLabService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/AbstractXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/NotaXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/NotaXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/StudentXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/TemaLabXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/TemaLabXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +34,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
@@ -89,7 +61,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/NotaXMLService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/NotaXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
@@ -110,7 +82,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/StudentXMLService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -123,7 +95,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/AbstractXMLService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
@@ -184,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/test/StudentService/Service/TestAddStudent.java" />
         <option value="$PROJECT_DIR$/test/StudentService/Service/TestAddStudent.java" />
         <option value="$PROJECT_DIR$/src/java/StudentService/Service/XMLFileService/StudentXMLService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" />
       </list>
     </option>
   </component>
@@ -247,14 +220,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553982536662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553983214764" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -539,7 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/NotaXMLService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/NotaXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
@@ -591,7 +556,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/AbstractXMLService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
@@ -601,7 +566,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/StudentXMLService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -612,7 +577,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />

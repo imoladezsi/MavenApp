@@ -1,8 +1,8 @@
-package StudentService.Service;
+package Service.StudentService;
 
 import Exceptions.ValidatorException;
 import Repository.XMLFileRepository.StudentXMLRepo;
-import StudentService.Service.XMLFileService.StudentXMLService;
+import Service.StudentService.XMLFileService.StudentXMLService;
 import Validator.StudentValidator;
 import org.junit.Test;
 

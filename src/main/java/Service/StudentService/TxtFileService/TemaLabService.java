@@ -1,4 +1,4 @@
-package StudentService.Service.TxtFileService;
+package Service.StudentService.TxtFileService;
 import Exceptions.ValidatorException;
 import Domain.*;
 import Repository.TxtFileRepository.TemaLabFileRepo;
