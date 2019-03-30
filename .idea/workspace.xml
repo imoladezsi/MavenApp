@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c8a059-40c3-4a86-9f07-9791236c727d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/StudentService/AddStudentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/Service.StudentService/AddStudentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/HasId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/Repo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/AbstractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/NotaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/TemaLabService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/NotaXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/StudentXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestStd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/ui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javatpoint/testcase/CrudRepoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/MavenApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Service/StudentService/AddStudentTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Service/StudentService/AddStudentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="425">
               <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
@@ -46,10 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/java/Service.StudentService/AddStudentTests.java">
+        <entry file="file://$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="235" column="16" lean-forward="true" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/test/java/AddStudentTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Service/StudentService/AddStudentTests.java" />
         <option value="$PROJECT_DIR$/test/java/Service.StudentService/AddStudentTests.java" />
+        <option value="$PROJECT_DIR$/test/Service/StudentService/AddStudentTests.java" />
+        <option value="$PROJECT_DIR$/Test/Service/StudentService/TestAddStudent.java" />
       </list>
     </option>
   </component>
@@ -198,33 +241,18 @@
               <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Service.StudentService" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentService" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
-          <expand>
-            <path>
-              <item name="MavenApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MavenApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="MavenApp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553979449887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553980983164" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -254,50 +282,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddStudentTests">
-    <configuration name="AddStudentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAddStudent">
+    <configuration name="TestAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenApp" />
       <option name="PACKAGE_NAME" value="Service.StudentService" />
-      <option name="MAIN_CLASS_NAME" value="Service.StudentService.AddStudentTests" />
+      <option name="MAIN_CLASS_NAME" value="Service.StudentService.TestAddStudent" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTests.shouldFail_Email_EmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddStudent.shouldFail_Email_EmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenApp" />
       <option name="PACKAGE_NAME" value="Service.StudentService" />
-      <option name="MAIN_CLASS_NAME" value="Service.StudentService.AddStudentTests" />
+      <option name="MAIN_CLASS_NAME" value="Service.StudentService.TestAddStudent" />
       <option name="METHOD_NAME" value="shouldFail_Email_EmptyString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTests.shouldFail_Email_JustRandomString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddStudent.shouldFail_Email_JustRandomString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenApp" />
       <option name="PACKAGE_NAME" value="Service.StudentService" />
-      <option name="MAIN_CLASS_NAME" value="Service.StudentService.AddStudentTests" />
+      <option name="MAIN_CLASS_NAME" value="Service.StudentService.TestAddStudent" />
       <option name="METHOD_NAME" value="shouldFail_Email_JustRandomString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTests.shouldPass_Email_CorrectFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddStudent.shouldPass_Email_CorrectFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenApp" />
       <option name="PACKAGE_NAME" value="Service.StudentService" />
-      <option name="MAIN_CLASS_NAME" value="Service.StudentService.AddStudentTests" />
+      <option name="MAIN_CLASS_NAME" value="Service.StudentService.TestAddStudent" />
       <option name="METHOD_NAME" value="shouldPass_Email_CorrectFormat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTests.shouldPass_Name_NoSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddStudent.shouldPass_Name_NoSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenApp" />
       <option name="PACKAGE_NAME" value="Service.StudentService" />
-      <option name="MAIN_CLASS_NAME" value="Service.StudentService.AddStudentTests" />
+      <option name="MAIN_CLASS_NAME" value="Service.StudentService.TestAddStudent" />
       <option name="METHOD_NAME" value="shouldPass_Name_NoSpace" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -306,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddStudentTests" />
-        <item itemvalue="JUnit.AddStudentTests.shouldPass_Name_NoSpace" />
-        <item itemvalue="JUnit.AddStudentTests.shouldFail_Email_EmptyString" />
-        <item itemvalue="JUnit.AddStudentTests.shouldFail_Email_JustRandomString" />
-        <item itemvalue="JUnit.AddStudentTests.shouldPass_Email_CorrectFormat" />
+        <item itemvalue="JUnit.TestAddStudent" />
+        <item itemvalue="JUnit.TestAddStudent.shouldPass_Name_NoSpace" />
+        <item itemvalue="JUnit.TestAddStudent.shouldFail_Email_EmptyString" />
+        <item itemvalue="JUnit.TestAddStudent.shouldFail_Email_JustRandomString" />
+        <item itemvalue="JUnit.TestAddStudent.shouldPass_Email_CorrectFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -339,19 +367,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553977711751</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commented failing test cases">
+      <created>1553979857783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553979857783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_shouldPass_Email_CorrectFormat - 2019.03.23 at 17h 55m 24s.xml">
-      <configuration name="AppTest.shouldPass_Email_CorrectFormat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_shouldPass_Email_CorrectFormat - 2019.03.23 at 17h 55m 54s.xml">
-      <configuration name="AppTest.shouldPass_Email_CorrectFormat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_shouldFail_Email_JustRandomString - 2019.03.23 at 17h 56m 43s.xml">
-      <configuration name="AppTest.shouldFail_Email_JustRandomString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_shouldFail_Email_JustRandomString - 2019.03.23 at 17h 57m 19s.xml">
       <configuration name="AppTest.shouldFail_Email_JustRandomString" configurationId="JUnit" />
     </history-entry>
@@ -373,6 +399,15 @@
     <history-entry file="AddStudentTests - 2019.03.30 at 21h 43m 20s.xml">
       <configuration name="AddStudentTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddStudentTests - 2019.03.30 at 22h 55m 43s.xml">
+      <configuration name="AddStudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTests - 2019.03.30 at 22h 56m 45s.xml">
+      <configuration name="AddStudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddStudentTests - 2019.03.30 at 23h 06m 29s.xml">
+      <configuration name="AddStudentTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -387,7 +422,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32242227" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32242227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,7 +430,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -439,7 +474,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Moved test file to more appropriate package" />
     <MESSAGE value="same version" />
-    <option name="LAST_COMMIT_MESSAGE" value="same version" />
+    <MESSAGE value="commented failing test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="commented failing test cases" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -535,15 +571,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="425">
           <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/Service.StudentService/AddStudentTests.java">
+    <entry file="file://$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="235" column="16" lean-forward="true" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,6 +678,7 @@
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
     <option value="clean install" />
+    <option value="dependency::tree" />
     <option value="install" />
   </component>
 </project>
