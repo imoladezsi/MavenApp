@@ -3,48 +3,44 @@
   <component name="ChangeListManager">
     <list default="true" id="b4c8a059-40c3-4a86-9f07-9791236c727d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/HasId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Nota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/Repo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/AbstractService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/NotaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/TxtFileService/TemaLabService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/NotaXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/StudentXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestStd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/ui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javatpoint/testcase/CrudRepoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/MavenApp.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Service/StudentService/AddStudentTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Service/StudentService/AddStudentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/HasId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/HasId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Nota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/TemaLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/TemaLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/RepositoryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RepositoryException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ValidatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ValidatorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/AbstractCrudRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/AbstractCrudRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/NotaRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/NotaRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/StudentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MemoryRepository/TemaLabRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/MemoryRepository/TemaLabRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/AbstractFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/AbstractFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/NotaFileRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/NotaFileRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/StudentFileRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/StudentFileRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/TxtFileRepository/TemaLabFileRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/TemaLabFileRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/AbstractXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/NotaXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/NotaXMLRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/StudentXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/XMLFileRepository/TemaLabXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/TemaLabXMLRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/NotaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/NotaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/TxtFileService/TemaLabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/TxtFileService/TemaLabService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/AbstractXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/AbstractXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/NotaXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/NotaXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/StudentXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/StudentXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/XMLFileService/TemaLabXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/TemaLabXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestStd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestStd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validator/IValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/IValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validator/NotaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/NotaValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validator/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validator/TemaLabValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/TemaLabValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javatpoint/testcase/CrudRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javatpoint/testcase/CrudRepoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MavenApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MavenApp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,18 +53,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -77,29 +61,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/XMLFileRepository/AbstractXMLRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="235" column="16" lean-forward="true" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/XMLFileService/NotaXMLService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exceptions/ValidatorException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exceptions/RepositoryException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/NotaXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
@@ -111,7 +101,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/ui.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/ui.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="50" column="48" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="48" />
@@ -120,25 +110,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/XMLFileService/StudentXMLService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/StudentXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/XMLFileService/AbstractXMLService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/AbstractXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="55" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="55" />
@@ -147,7 +144,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Validator/StudentValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -182,6 +179,11 @@
         <option value="$PROJECT_DIR$/test/java/Service.StudentService/AddStudentTests.java" />
         <option value="$PROJECT_DIR$/test/Service/StudentService/AddStudentTests.java" />
         <option value="$PROJECT_DIR$/Test/Service/StudentService/TestAddStudent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StudentService/TestAddStudent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java" />
+        <option value="$PROJECT_DIR$/src/test/StudentService/Service/TestAddStudent.java" />
+        <option value="$PROJECT_DIR$/test/StudentService/Service/TestAddStudent.java" />
+        <option value="$PROJECT_DIR$/src/java/StudentService/Service/XMLFileService/StudentXMLService.java" />
       </list>
     </option>
   </component>
@@ -230,18 +232,28 @@
               <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentService" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553980983164" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553982536662" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -260,14 +272,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java.StudentService.Service" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DIK\uni\VVSS\MavenApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\DIK\uni\VVSS\MavenApp\test\java\Service.StudentService" />
+      <recent name="C:\Users\DIK\uni\VVSS\MavenApp\src\main" />
       <recent name="C:\Users\DIK\uni\VVSS\MavenApp" />
+      <recent name="C:\Users\DIK\uni\VVSS\MavenApp\src\test\java" />
+      <recent name="C:\Users\DIK\uni\VVSS\MavenApp\src" />
+      <recent name="C:\Users\DIK\uni\VVSS\MavenApp\src\test\Service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,7 +427,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24829674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -490,7 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/TxtFileRepository/AbstractFileRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/TxtFileRepository/AbstractFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
@@ -500,14 +515,14 @@
     <entry file="file://$PROJECT_DIR$/studenti.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javatpoint/testcase/CrudRepoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javatpoint/testcase/CrudRepoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
@@ -517,14 +532,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/XMLFileRepository/AbstractXMLRepo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/XMLFileService/NotaXMLService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/NotaXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
@@ -534,35 +549,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/ui.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/ui.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="50" column="48" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/XMLFileService/StudentXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/XMLFileService/AbstractXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="55" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Validator/StudentValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -576,13 +577,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Service/StudentService/TestAddStudent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exceptions/RepositoryException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exceptions/ValidatorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/AbstractXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="235" column="16" lean-forward="true" selection-start-line="235" selection-start-column="16" selection-end-line="235" selection-end-column="57" />
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentService/Service/XMLFileService/StudentXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StudentService/Service/TestAddStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
