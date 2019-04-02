@@ -139,7 +139,7 @@ public class TestAddStudent {
     @Test
     public void shouldPass_Id_LongString()
     {
-        String[] params={"fiueghaiktuawutqbrqtuii","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
+        String[] params={"zzzzzzzzzzzzzzzzzzzzzzzzzzz","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
         shouldPass(params);
     }
 
@@ -266,6 +266,21 @@ public class TestAddStudent {
         shouldPass(params);
 
     }
+    @Test
+    public void shouldFail_Email_JustAt()
+    {
+        String[] params={"daea1111","Nume Prenume","933","abc@abc","Nume Prenume"};
+        shouldFail(params);
+
+    }
+    @Test
+    public void shouldFail_Email_JustDot()
+    {
+        String[] params={"daea1111","Nume Prenume","933","abc.abc","Nume Prenume"};
+        shouldFail(params);
+
+    }
+
     @Test
     public void shouldFail_Email_JustRandomString()
     {
