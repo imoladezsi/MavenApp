@@ -288,6 +288,35 @@ public class TestAddStudent {
         shouldFail(params);
     }
 
+    @Test
+    public void shoulFail_Id_Null(){
+        String[] params={null,"Nume Prenume","933","daea1111@scs.ubbcluj.ro","Nume Prenume"};
+        shouldFail(params);
+    }
+
+    @Test
+    public void shoulFail_Name_Null(){
+        String[] params={"daea1111",null,"933","daea1111@scs.ubbcluj.ro","Nume Prenume"};
+        shouldFail(params);
+    }
+
+    @Test
+    public void shoulFail_Group_Null(){
+        String[] params={"daea1111","Nume Prenume",null,"daea@scs.ubbcluj.ro","Nume Prenume"};
+        shouldFail(params);
+    }
+
+    @Test
+    public void shoulFail_Prof_Null(){
+        String[] params={"daea1111","Nume Prenume","933","email@scs.ubbcluj.ro",null};
+        shouldFail(params);
+    }
+
+    @Test
+    public void shoulFail_Email_Null(){
+        String[] params={"daea1111","Nume Prenume","933",null,"Nume Prenume"};
+        shouldFail(params);
+    }
 
 
 }

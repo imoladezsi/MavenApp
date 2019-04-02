@@ -13,24 +13,24 @@ public class StudentValidator implements IValidator<Student> {
         Pattern namep = Pattern.compile("[A-Za-z-]+ [A-Za-z-]+");
         Pattern emailp = Pattern.compile(".+@.+\\..+");
 
-        if(!idp.matcher(s.getId()).matches()){
+        if(s.getId()==null || !idp.matcher(s.getId()).matches()){
             //throw new ValidatorException("Id invalid\n");
             errors+="Id invalid\n";
         }
-        if(!namep.matcher(s.getNume()).matches()){
+        if(s.getNume()==null || !namep.matcher(s.getNume()).matches()){
             //throw new ValidatorException("Nume invalid\n");
             errors+="Nume invalid\n";
         }
-        if(!namep.matcher(s.getIndrumator()).matches()){
+        if(s.getIndrumator()==null ||!namep.matcher(s.getIndrumator()).matches()){
             //throw new ValidatorException("Nume invalid\n");
             errors+="Indrumator invalid\n";
         }
-        if((!groupp.matcher(Integer.toString(s.getGrupa())).matches())){
+        if (!groupp.matcher(Integer.toString(s.getGrupa())).matches()){
             //throw new ValidatorException("Grupa invalida\n");
             errors+="Grupa invalid\n";
         }
 
-        if(!emailp.matcher(s.getEmail()).matches()){
+        if(s.getEmail()==null || !emailp.matcher(s.getEmail()).matches()){
             //throw new ValidatorException("Email invalid\n");
             errors+="Email invalid\n";
         }

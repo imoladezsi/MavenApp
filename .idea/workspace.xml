@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c8a059-40c3-4a86-9f07-9791236c727d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="648">
+              <caret line="316" column="61" selection-start-line="316" selection-start-column="61" selection-end-line="316" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="272">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="221">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -185,11 +185,11 @@
         <option value="$PROJECT_DIR$/src/test/StudentService/Service/TestAddStudent.java" />
         <option value="$PROJECT_DIR$/test/StudentService/Service/TestAddStudent.java" />
         <option value="$PROJECT_DIR$/src/java/StudentService/Service/XMLFileService/StudentXMLService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
       </list>
     </option>
   </component>
@@ -338,7 +338,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554208606030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554209182028" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -481,9 +481,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAddStudent - 2019.04.02 at 15h 01m 29s.xml">
-      <configuration name="TestAddStudent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAddStudent - 2019.04.02 at 15h 09m 42s.xml">
       <configuration name="TestAddStudent" configurationId="JUnit" />
     </history-entry>
@@ -509,6 +506,9 @@
       <configuration name="TestAddStudent" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestAddStudent - 2019.04.02 at 15h 28m 13s.xml">
+      <configuration name="TestAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAddStudent - 2019.04.02 at 15h 44m 07s.xml">
       <configuration name="TestAddStudent" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -649,37 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
@@ -732,8 +701,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="316" column="61" selection-start-line="316" selection-start-column="61" selection-end-line="316" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
