@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c8a059-40c3-4a86-9f07-9791236c727d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MavenApp-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/TxtFileService/AbstractService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/TxtFileService/NotaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/TxtFileService/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/TxtFileService/TemaLabService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/XMLFileService/NotaXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/XMLFileService/StudentXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentService/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/ui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/ui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/StudentService.Service.TestAddStudent.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-StudentService.Service.TestAddStudent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StudentService/Service/TestAddStudent.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="340">
               <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,6 +112,15 @@
                 <element signature="e#1033#1034#0" expanded="true" />
                 <element signature="e#1073#1074#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -204,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -352,7 +338,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554208080830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554208606030" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -484,16 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553979857783</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed source code to pass tests&#10;refactored tests">
+      <created>1554208163461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554208163461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAddStudent - 2019.04.02 at 14h 58m 43s.xml">
-      <configuration name="TestAddStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAddStudent - 2019.04.02 at 15h 00m 14s.xml">
-      <configuration name="TestAddStudent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAddStudent - 2019.04.02 at 15h 01m 29s.xml">
       <configuration name="TestAddStudent" configurationId="JUnit" />
     </history-entry>
@@ -518,6 +505,12 @@
     <history-entry file="TestAddStudent - 2019.04.02 at 15h 24m 33s.xml">
       <configuration name="TestAddStudent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestAddStudent - 2019.04.02 at 15h 28m 00s.xml">
+      <configuration name="TestAddStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAddStudent - 2019.04.02 at 15h 28m 13s.xml">
+      <configuration name="TestAddStudent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -532,8 +525,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32242227" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32242227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -541,7 +534,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5024155" side_tool="true" visible="true" weight="0.2602118" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5024155" side_tool="true" weight="0.2602118" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -557,19 +550,8 @@
     <MESSAGE value="Moved test file to more appropriate package" />
     <MESSAGE value="same version" />
     <MESSAGE value="commented failing test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="commented failing test cases" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="changed source code to pass tests&#10;refactored tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed source code to pass tests&#10;refactored tests" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -732,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="340">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -745,6 +727,13 @@
             <element signature="e#1033#1034#0" expanded="true" />
             <element signature="e#1073#1074#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
