@@ -1,24 +1,36 @@
 package Validator;
 import Exceptions.ValidatorException;
 import Domain.Student;
+import java.util.regex.*;
 
 public class StudentValidator implements IValidator<Student> {
 
     public void validate(Student s) throws ValidatorException {
         String errors="";
-        if(s.getId().equals("")){
+
+        Pattern idp = Pattern.compile("[a-zA-Z0-9]+");
+        Pattern groupp = Pattern.compile("0|([1-9][0-9]*)");
+        Pattern namep = Pattern.compile("[A-Za-z-]+ [A-Za-z-]+");
+        Pattern emailp = Pattern.compile(".+@.+\\..+");
+
+        if(!idp.matcher(s.getId()).matches()){
             //throw new ValidatorException("Id invalid\n");
             errors+="Id invalid\n";
         }
-        if(s.getNume().equals("") || s.getNume()==null){
+        if(!namep.matcher(s.getNume()).matches()){
             //throw new ValidatorException("Nume invalid\n");
             errors+="Nume invalid\n";
         }
-        if(s.getGrupa()<=0){
+        if(!namep.matcher(s.getIndrumator()).matches()){
+            //throw new ValidatorException("Nume invalid\n");
+            errors+="Indrumator invalid\n";
+        }
+        if((!groupp.matcher(Integer.toString(s.getGrupa())).matches())){
             //throw new ValidatorException("Grupa invalida\n");
             errors+="Grupa invalid\n";
         }
-        if(s.getEmail().equals("") || s.getEmail()==null){
+
+        if(!emailp.matcher(s.getEmail()).matches()){
             //throw new ValidatorException("Email invalid\n");
             errors+="Email invalid\n";
         }

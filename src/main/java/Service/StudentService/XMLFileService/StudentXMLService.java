@@ -2,6 +2,7 @@ package Service.StudentService.XMLFileService;
 
 import Domain.Student;
 import Repository.XMLFileRepository.StudentXMLRepo;
+import com.sun.org.apache.xpath.internal.operations.Number;
 
 public class StudentXMLService extends AbstractXMLService<String,Student> {
     private StudentXMLRepo xmlrepo;
@@ -11,13 +12,10 @@ public class StudentXMLService extends AbstractXMLService<String,Student> {
     }
 
     @Override
-    protected Student extractEntity(String[] params){
+    protected Student extractEntity(String[] params) throws NumberFormatException {
         int grupa=0;
-        try{
-            grupa=Integer.parseInt(params[2]);
-        }catch(NumberFormatException ex){
-            System.out.println(ex.getMessage());
-        }
+
+        grupa=Integer.parseInt(params[2]);
         return new Student(params[0],params[1],grupa,params[3],params[4]);
     }
 

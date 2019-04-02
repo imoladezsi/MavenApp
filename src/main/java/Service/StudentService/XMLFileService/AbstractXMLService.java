@@ -3,6 +3,8 @@ import Domain.*;
 import Exceptions.ValidatorException;
 import Repository.XMLFileRepository.AbstractXMLRepo;
 
+import java.text.NumberFormat;
+
 public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
     private AbstractXMLRepo xmlrepo;
 
@@ -15,8 +17,16 @@ public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
     //}
 
     public void add(String params[]) throws ValidatorException{
-        E e=extractEntity(params);
-        xmlrepo.save(e);
+        try {
+            E e = extractEntity(params);
+            E f = findOne(e.getId());
+            if (f ==null)
+                xmlrepo.save(e);
+            else throw new ValidatorException("Id must be unique");
+        }catch (NumberFormatException e){
+
+            throw new ValidatorException("Group must be a number");
+        }
     }
     public void remove(ID id){
         xmlrepo.delete(id);
