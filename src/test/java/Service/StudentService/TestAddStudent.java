@@ -128,27 +128,6 @@ public class TestAddStudent {
         String[] params={"daea","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
         shouldPass(params);
     }
-    @Test
-    public void shouldPass_Id_ConvertibleNumberCharacters()
-    {
-        String[] params={"1111aaaa","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
-        shouldPass(params);
-
-    }
-
-    @Test
-    public void shouldPass_Id_LongString()
-    {
-        String[] params={"zzzzzzzzzzzzzzzzzzzzzzzzzzz","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
-        shouldPass(params);
-    }
-
-    @Test
-    public void shouldFail_Id_SpecialCharacters()
-    {
-        String[] params={"daea1111%","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
-        shouldFail(params);
-    }
 
     @Test
     public void shouldFail_Id_Empty()
@@ -183,6 +162,27 @@ public class TestAddStudent {
 
         }
 
+    }
+    @Test
+    public void shouldPass_Id_ConvertibleNumberCharacters()
+    {
+        String[] params={"1111aaaa","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
+        shouldPass(params);
+
+    }
+
+    @Test
+    public void shouldPass_Id_LongString()
+    {
+        String[] params={"zzzzzzzzzzzzzzzzzzzzzzzzzzz","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
+        shouldPass(params);
+    }
+
+    @Test
+    public void shouldFail_Id_SpecialCharacters()
+    {
+        String[] params={"daea1111%","Nume Prenume","933","email@scs.ubbcluj.ro","Nume Prenume"};
+        shouldFail(params);
     }
 
     //Name tests
