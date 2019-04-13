@@ -107,12 +107,6 @@ public class TestAddAssignment {
         shouldPass(params, null);
     }
 
-    @Test
-    public void shouldFail_SC_cannotExtractEntity(){
-        // where id or one of the weeks are not integers
-        String[] params={"NotANumber","text","5","7"};
-        shouldFail(params, null);
-    }
 
     @Test
     public void shouldFail_CD_cannotExtractEntity(){
