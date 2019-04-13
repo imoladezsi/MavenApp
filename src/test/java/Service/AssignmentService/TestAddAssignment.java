@@ -7,7 +7,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-
+/*
+Notations:
+    SC = Statement Coverage
+    PC = Path Coverage
+    CDC = Condition/Decision Coverage
+ */
 public class TestAddAssignment {
 
 
@@ -109,7 +114,7 @@ public class TestAddAssignment {
 
 
     @Test
-    public void shouldFail_CD_cannotExtractEntity(){
+    public void shouldFail_CDC_cannotExtractEntity(){
         // where id or one of the weeks are not integers
         String[] params={"NotANumber","text","5","7"};
         shouldFail(params);
@@ -122,4 +127,22 @@ public class TestAddAssignment {
     }
 
 
+    @Test
+    public void shouldPass_PC_loopWriteSeveralItems(){
+        TemaLabValidator vt=new TemaLabValidator();
+        TemaLabXMLRepo tmrepo=new TemaLabXMLRepo(vt,"TemaLaboratorXML.xml");
+        TemaLabXMLService tmsrv=new TemaLabXMLService(tmrepo);
+        String[] params={"1","text","5","7"};
+        String[] params2={"2","text","5","7"};
+        boolean gotHere = false;
+        try {
+            tmsrv.add(params);
+            tmsrv.add(params2);
+            gotHere = true;
+        }catch(ValidatorException e){
+            fail();
+        }
+        assertTrue(gotHere);
+
+    }
 }
