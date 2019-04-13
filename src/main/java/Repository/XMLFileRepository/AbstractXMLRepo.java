@@ -1,6 +1,7 @@
 package Repository.XMLFileRepository;
 
 import Domain.HasId;
+import Exceptions.RepositoryException;
 import Exceptions.ValidatorException;
 import Repository.MemoryRepository.AbstractCrudRepo;
 import Validator.IValidator;
@@ -73,7 +74,7 @@ public abstract class AbstractXMLRepo<ID,E extends HasId<ID>> extends AbstractCr
                     .newTransformer();
             transformer.transform(new DOMSource(document),new StreamResult(fileName));
         }catch (Exception ex){
-            System.out.println(ex.getMessage());
+            throw new RepositoryException("Couldn't create xml file");
         }
     }
 

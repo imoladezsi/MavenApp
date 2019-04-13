@@ -19,9 +19,15 @@ public abstract class AbstractFileRepository<ID,E extends HasId<ID>> extends Abs
 
     private void writeAll() throws IOException {
         DataOutputStream out = new DataOutputStream(new FileOutputStream(filename));
-        super.findAll().forEach(x-> { try { out.writeChars(x.toString()); } catch (IOException e) { e.printStackTrace(); } });
-
+        super.findAll().forEach(x-> {
+            try {
+                out.writeChars(x.toString());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
     }
+
     private void writeToFile(E entity)throws IOException {
         DataOutputStream out = new DataOutputStream(new FileOutputStream(filename));
         out.writeChars(entity.toString());

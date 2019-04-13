@@ -1,6 +1,7 @@
 package Service.StudentService.XMLFileService;
 
 import Domain.*;
+import Exceptions.ValidatorException;
 import Repository.XMLFileRepository.NotaXMLRepo;
 import java.io.*;
 import java.time.LocalDateTime;
@@ -40,9 +41,13 @@ public class NotaXMLService extends AbstractXMLService<Integer,Nota>{
     }
 
     @Override
-    protected Nota extractEntity(String[] params){
-        Nota n=new Nota(Integer.parseInt(params[0]),params[1],Integer.parseInt(params[2]),Double.parseDouble(params[3]), LocalDateTime.parse(params[4]));
-        return n;
+    protected Nota extractEntity(String[] params) throws ValidatorException {
+        try {
+            Nota n = new Nota(Integer.parseInt(params[0]), params[1], Integer.parseInt(params[2]), Double.parseDouble(params[3]), LocalDateTime.parse(params[4]));
+            return n;
+        }catch(NumberFormatException ne){
+            throw new ValidatorException(ne.getMessage());
+        }
 
     }
 

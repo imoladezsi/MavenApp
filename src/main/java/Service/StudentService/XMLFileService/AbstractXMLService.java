@@ -12,27 +12,22 @@ public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
         this.xmlrepo = xmlrepo;
     }
 
-    protected abstract E extractEntity(String[] params);
+    protected abstract E extractEntity(String[] params) throws ValidatorException;
         //return new Student(params[0],params[1],Integer.parseInt(params[2]),params[3],params[4]);
     //}
 
     public void add(String params[]) throws ValidatorException{
-        try {
-            E e = extractEntity(params);
-            E f = findOne(e.getId());
-            if (f ==null)
-                xmlrepo.save(e);
-            else throw new ValidatorException("Id must be unique");
-        }catch (NumberFormatException e){
-
-            throw new ValidatorException("Group must be a number");
-        }
+        E e = extractEntity(params);
+        E f = findOne(e.getId());
+        if (f ==null)
+            xmlrepo.save(e);
+        else throw new ValidatorException("Id must be unique");
     }
     public void remove(ID id){
         xmlrepo.delete(id);
     }
-    public void update(String params[]){
-        E s=extractEntity(params);
+    public void update(String params[]) throws ValidatorException{
+        E s = extractEntity(params);
         xmlrepo.update(s);
     }
     public E findOne(ID id){
