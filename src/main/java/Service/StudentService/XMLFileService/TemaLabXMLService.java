@@ -31,6 +31,8 @@ public class TemaLabXMLService extends AbstractXMLService<Integer,TemaLab>{
         }catch(NumberFormatException ne){
             throw new ValidatorException("Assignment id and weeks must be numbers");
 
+        }catch(ArrayIndexOutOfBoundsException ae){
+            throw new ValidatorException("Cannot create assignment. Some elements are missing");
         }
     }
 

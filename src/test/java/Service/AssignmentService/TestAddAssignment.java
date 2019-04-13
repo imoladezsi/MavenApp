@@ -126,6 +126,11 @@ public class TestAddAssignment {
         shouldPass(params, "NewAssignmentFile.XML");
     }
 
+    @Test
+    public void shouldFail_SC_tooFewArguments(){
+        String[] params={};
+        shouldFail(params);
+    }
 
     @Test
     public void shouldPass_PC_loopWriteSeveralItems(){

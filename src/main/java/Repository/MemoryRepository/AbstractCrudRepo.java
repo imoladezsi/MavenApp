@@ -28,6 +28,7 @@ public abstract class AbstractCrudRepo<ID,E extends HasId<ID>> implements Repo<I
 
     @Override
     public Iterable<E> findAll(){
+
         return entityes.values();
     }
     @Override
