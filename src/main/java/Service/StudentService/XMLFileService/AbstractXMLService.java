@@ -18,10 +18,15 @@ public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
 
     public void add(String params[]) throws ValidatorException{
         E e = extractEntity(params);
+       /*
         E f = findOne(e.getId());
         if (f ==null)
             xmlrepo.save(e);
         else throw new ValidatorException("Id must be unique");
+        */
+       //Se poate rescrie mai simplu:
+        if (xmlrepo.save(e) != null)
+            throw new ValidatorException("Id must be unique");
     }
     public void remove(ID id){
         xmlrepo.delete(id);
