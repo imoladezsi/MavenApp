@@ -10,7 +10,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TestAddStudent {
-/*
+
 
     public void shouldPass(String[] params)
     {
@@ -325,6 +325,6 @@ public class TestAddStudent {
         String[] params={"daea1111","Nume Prenume","933",null,"Nume Prenume"};
         shouldFail(params);
     }
-*/
+
 
 }
