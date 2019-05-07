@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c8a059-40c3-4a86-9f07-9791236c727d" name="Default Changelist" comment="uncomment student tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Service/GradeService/TestAddGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Service/Integration/BigBangTesting.java" afterDir="false" />
+    <list default="true" id="b4c8a059-40c3-4a86-9f07-9791236c727d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Service/Integration/TopDownTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NotaXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemaLaboratorXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TemaLaboratorXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/Integration/BigBangTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/Integration/BigBangTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/HasId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/HasId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Nota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/TemaLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/RepositoryException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/ServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Exceptions/ValidatorException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/NotaRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/StudentRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/MemoryRepository/TemaLabRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/Repo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/NotaFileRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/StudentFileRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/TxtFileRepository/TemaLabFileRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/NotaXMLRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/StudentXMLRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/XMLFileRepository/TemaLabXMLRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/IValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validator/TemaLabValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javatpoint/testcase/CrudRepoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javatpoint/testcase/CrudRepoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +45,9 @@
     <SUITE FILE_PATH="coverage/MavenApp$TestAddAssignment.ic" NAME="TestAddAssignment Coverage Results" MODIFIED="1555168820787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/MavenApp$TopDownTesting.ic" NAME="TopDownTesting Coverage Results" MODIFIED="1557234584037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Service.Integration.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/MavenApp$All_in_MavenApp.ic" NAME="All in MavenApp Coverage Results" MODIFIED="1555169729273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
@@ -28,22 +56,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Service/AssignmentService/TestAddAssignment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/TemaLabXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="95" column="5" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="20" selection-start-line="18" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemaLaboratorXML.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="61" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -58,10 +77,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StudentiXML.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="61" selection-start-column="61" selection-end-column="61" />
+            <state relative-caret-position="68">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Validator/NotaValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Service/Integration/TopDownTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/NotaXMLService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,17 +124,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+            <state relative-caret-position="232">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Service/GradeService/TestAddGrade.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Service/AssignmentService/TestAddAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="-995">
+              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Service/Integration/BigBangTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="263">
+              <caret line="120" column="25" selection-start-line="111" selection-start-column="7" selection-end-line="120" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,34 +155,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Validator/TemaLabValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -142,6 +176,7 @@
     <findStrings>
       <find>.find()</find>
       <find>&quot;abc&quot;</find>
+      <find>Id</find>
       <find>pass</find>
     </findStrings>
     <replaceStrings>
@@ -174,7 +209,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/NotaXMLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java" />
@@ -187,8 +221,10 @@
         <option value="$PROJECT_DIR$/TemaLaboratorXML.xml" />
         <option value="$PROJECT_DIR$/StudentiXML.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Service/Integration/BigBangTesting.java" />
         <option value="$PROJECT_DIR$/src/test/java/Service/GradeService/TestAddGrade.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/Integration/BigBangTesting.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/Integration/TopDownTesting.java" />
       </list>
     </option>
   </component>
@@ -206,6 +242,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="MavenApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MavenApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -221,8 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,152 +287,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-              <item name="MemoryRepository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-              <item name="TxtFileRepository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-              <item name="XMLFileRepository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentService" type="462c0819:PsiDirectoryNode" />
-              <item name="TxtFileService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentService" type="462c0819:PsiDirectoryNode" />
-              <item name="XMLFileService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="AssignmentService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="GradeService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Integration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentService" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555494225828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557236156766" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -423,17 +330,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAddAssignment">
-    <configuration name="All in MavenApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" track_test_folders="true" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
+  <component name="RunManager" selected="JUnit.TopDownTesting">
+    <configuration name="BigBangTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service.Integration" />
+      <option name="MAIN_CLASS_NAME" value="Service.Integration.BigBangTesting" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -453,38 +361,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddAssignment.shouldFail_SC_addNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Service.AssignmentService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Service.AssignmentService" />
-      <option name="MAIN_CLASS_NAME" value="Service.AssignmentService.TestAddAssignment" />
-      <option name="METHOD_NAME" value="shouldFail_SC_addNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAddAssignment.testAddAssignment_notUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Service.AssignmentService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Service.AssignmentService" />
-      <option name="MAIN_CLASS_NAME" value="Service.AssignmentService.TestAddAssignment" />
-      <option name="METHOD_NAME" value="testAddAssignment_notUniqueId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenApp" />
       <option name="PACKAGE_NAME" value="Service.StudentService" />
@@ -494,19 +370,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopDownTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service.Integration" />
+      <option name="MAIN_CLASS_NAME" value="Service.Integration.TopDownTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDownTesting.shouldPass_integration_addStudent_addAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service.Integration" />
+      <option name="MAIN_CLASS_NAME" value="Service.Integration.TopDownTesting" />
+      <option name="METHOD_NAME" value="shouldPass_integration_addStudent_addAssignment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.TestAddAssignment.testAddAssignment_notUniqueId" />
-      <item itemvalue="JUnit.TestAddStudent" />
-      <item itemvalue="JUnit.All in MavenApp" />
-      <item itemvalue="JUnit.TestAddAssignment.shouldFail_SC_addNull" />
+      <item itemvalue="JUnit.BigBangTesting" />
       <item itemvalue="JUnit.TestAddAssignment" />
+      <item itemvalue="JUnit.TestAddStudent" />
+      <item itemvalue="JUnit.TopDownTesting" />
+      <item itemvalue="JUnit.TopDownTesting.shouldPass_integration_addStudent_addAssignment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopDownTesting" />
+        <item itemvalue="JUnit.TopDownTesting.shouldPass_integration_addStudent_addAssignment" />
+        <item itemvalue="JUnit.BigBangTesting" />
         <item itemvalue="JUnit.TestAddAssignment" />
-        <item itemvalue="JUnit.TestAddAssignment.shouldFail_SC_addNull" />
-        <item itemvalue="JUnit.All in MavenApp" />
-        <item itemvalue="JUnit.TestAddAssignment.testAddAssignment_notUniqueId" />
         <item itemvalue="JUnit.TestAddStudent" />
       </list>
     </recent_temporary>
@@ -613,55 +520,63 @@
       <option name="project" value="LOCAL" />
       <updated>1555493205300</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="uncomment student tests">
+      <created>1555494245449</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555494245449</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAddAssignment - 2019.04.14 at 14h 24m 05s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="BigBangTesting - 2019.04.17 at 12h 53m 06s.xml">
+      <configuration name="BigBangTesting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 14h 30m 16s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="BigBangTesting - 2019.04.17 at 12h 57m 42s.xml">
+      <configuration name="BigBangTesting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 14h 31m 06s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="MavenApp - 2019.05.07 at 14h 58m 50s.xml">
+      <configuration name="MavenApp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 14h 32m 38s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="TopDownTesting - 2019.05.07 at 16h 08m 06s.xml">
+      <configuration name="TopDownTesting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 14h 44m 41s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="TopDownTesting - 2019.05.07 at 16h 12m 19s.xml">
+      <configuration name="TopDownTesting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 14h 46m 09s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="TopDownTesting - 2019.05.07 at 16h 13m 53s.xml">
+      <configuration name="TopDownTesting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 15h 05m 10s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="TopDownTesting - 2019.05.07 at 16h 14m 07s.xml">
+      <configuration name="TopDownTesting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 15h 07m 13s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="TopDownTesting_shouldPass_integration_addStudent_addAssignment - 2019.05.07 at 16h 25m 00s.xml">
+      <configuration name="TopDownTesting.shouldPass_integration_addStudent_addAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.14 at 15h 07m 55s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="TopDownTesting - 2019.05.07 at 16h 26m 38s.xml">
+      <configuration name="TopDownTesting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment - 2019.04.17 at 12h 15m 35s.xml">
-      <configuration name="TestAddAssignment" configurationId="JUnit" />
+    <history-entry file="TopDownTesting - 2019.05.07 at 16h 33m 41s.xml">
+      <configuration name="TopDownTesting" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40499622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Maven test results" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32242227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32242227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,12 +585,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5072464" side_tool="true" visible="true" weight="0.23373677" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50966185" side_tool="true" visible="true" weight="0.2632375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49275362" visible="true" weight="0.055261165" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49033818" visible="true" weight="0.2632375" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -698,6 +613,18 @@
     <MESSAGE value="created files by hand, removed errors" />
     <MESSAGE value="uncomment student tests" />
     <option name="LAST_COMMIT_MESSAGE" value="uncomment student tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -743,16 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/StudentXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -761,13 +678,6 @@
             <element signature="e#322#323#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/ui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -799,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Domain/TemaLab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -823,16 +723,6 @@
           <folding>
             <element signature="e#112#113#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/NotaXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,24 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/TemaLabService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/AbstractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -886,16 +762,6 @@
           <folding>
             <element signature="e#323#324#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/TemaLabXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -914,34 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TemaLaboratorXML.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="61" selection-end-column="69" />
+          <caret column="61" selection-end-column="195" />
         </state>
       </provider>
     </entry>
@@ -952,27 +794,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/GradeService/TestAddGrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Service/AssignmentService/TestAddAssignment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="1955">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="110" selection-start-column="3" selection-end-line="115" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Service/StudentService/TestAddStudent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
+        <state relative-caret-position="60">
+          <caret line="17" selection-start-line="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/ui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="200" column="16" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/AbstractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/TemaLabService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/TxtFileService/NotaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/XMLFileRepository/AbstractXMLRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/AbstractXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/TemaLabXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="18" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/StudentXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/TemaLabValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/NotaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/AssignmentService/TestAddAssignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-995">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -981,18 +919,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Service/Integration/BigBangTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="263">
+          <caret line="120" column="25" selection-start-line="111" selection-start-column="7" selection-end-line="120" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Service/GradeService/TestAddGrade.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentService/XMLFileService/NotaXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Integration/TopDownTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
